@@ -1,0 +1,366 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: black;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0,5s;
+}
+.logo{
+    color: forestgreen;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+}
+.logo span{
+    color: lawngreen;
+}
+.navbar{
+    display: flex;
+    position: relative;
+
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: forestgreen;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn-reserve{
+    padding: 10px;
+    background-color: chartreuse;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+.btn-reserve:hover{
+    background: floralwhite;
+    transition: ease-out;
+}
+header .navbar li,a:hover{
+    color: chocolate;
+
+}
+.bannière{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url(./IMAGES/image16.png.jpg);
+    background-size: cover;
+    
+}
+.bannière .contenu{
+    max-width: 70%;
+    text-align: center;
+    color: aliceblue;
+}
+.bannière .contenu h2{
+    color: antiquewhite;
+    font-size: 3em;
+    text-transform: capitalize;
+
+}
+.contenu p:nth-child(2){
+    color: aliceblue;
+    font-size: 1.2em;
+}
+.btn1{
+    font-size: 1em;
+    color: black;
+    background: yellow;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0,5s;
+    margin-left: 10px;
+}
+.btn2{
+    font-size: 1em;
+    color: black;
+    background: rgb(255, 115, 0);
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0,5s;
+    margin-left: 10px;
+}
+.btn1:hover{
+    letter-spacing: 4px;
+}
+section{
+    padding: 100px;
+
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .col50 h2{
+    margin-bottom: 20px;
+
+}
+.titre_texte{
+    color: black;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+}
+.titre_texte span{
+    color: yellowgreen;
+    font-size: 1,5em;
+    font-weight: 700px;
+}
+.row .col50 img{
+    height: 200px;
+    width: 350px;
+    position: relative;
+}
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.menu .titre{
+    color: black;
+}
+.menu .titre p{
+    color: black;
+}
+.menu{
+    margin-top: -100px;
+    background-color: blanchedalmond;
+    background-color: d;
+
+}
+.menu .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .contenu .box{
+    width: 350px;
+    margin-top: 20px;
+    box-shadow: black;
+}
+.menu .contenu .box .imbox img{
+    position: relative;
+    width: 80%;
+    height: 200px;
+    
+}
+.menu .contenu .box .text{
+    text-align: center;
+    font-weight: 300px;
+    color: black;
+}
+.menu .contenu .box .text h3{
+    font-weight: 400;
+    text-align: center;
+}
+.expert{
+    margin-top: -100px; 
+}
+.expert .titre{
+    color: black;
+}
+.expert .titre p{
+    color: black;
+}
+.expert .contenu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.expert .contenu .box{
+    width: 250px;
+    margin: 15px;
+}
+.expert .contenu .box img{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    object-fit: cover;
+}
+.expert .contenu .box h3{
+    color: dimgray;
+    font-weight: 400;
+    text-align: center;
+}
+.temoignage{
+    background-image: linear-gradient(rgb(0, 128, 64), white, green, white);
+    background-size: cover;
+    
+}
+.temoignage .contenu{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.temoignage .contenu .box{
+    width: 200px;
+    margin: 20px;
+    background-color:aliceblue;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.temoignage .contenu .box img{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+.titre {
+    color: antiquewhite;
+}
+
+.titre p{
+    color: antiquewhite;
+}
+
+.temoignage .contenu .box h3{
+    color: rgb(255, 115, 0);
+    font-weight: 400;
+    text-align: center;
+}
+.temoignage .contenu .box .imbox{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin: 05px auto;
+}
+.imbox img{
+    width: 100%;
+    height: 100%;
+}
+.temoignage .contenu .box .text{
+    text-align: left;
+    font-style: italic;
+    font-size: 1em;
+    padding: 20px;
+}
+
+.contact{
+    background-image: url(./IMAGES/image30.png.jpg);
+    background-size: cover;
+    box-shadow: 2px,2px,12px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    background-position: unset;
+    padding-left: 35%;
+
+}
+.contactform{
+    padding: 75px, 50px;
+    background-color:white;
+    box-shadow: 5px,15px,50px rgba(0, 0, 0, 0.8);
+    max-width: 500px;
+    /* margin-top: 50px; */
+    justify-content: center;
+    align-items: center;
+    padding:100px;
+}
+.contactform .inputboite{
+    position: relative;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.contactform h2{
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contactform .inputboite input,
+.contactform .inputboite textarea{
+    width: 100%;
+    border: solid;
+    padding: 10px;
+    color: black;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    resize: none;
+}
+
+.contactform .inputboite input[type="submit"]{
+font-size: 1em;
+font-weight: 700;
+color: brown;
+background-color: darkorange;
+display: inline;
+cursor: pointer;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 2px;
+outline: none;
+border: none;
+transition: 0.5s;
+max-width: 120px;
+align-items: center;
+
+}
+
+.contact .titre-blanc {
+    text-align: center;
+    color: white;
+}
+
+.contact .titre-blanc p{
+    color: white;
+    font-size: 20px;
+}
